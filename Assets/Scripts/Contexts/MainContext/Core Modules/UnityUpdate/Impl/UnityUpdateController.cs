@@ -1,5 +1,3 @@
-using System;
-
 public class UnityUpdateController : IUnityUpdateController
 {
     private UnityUpdateAgent _updateAgent;

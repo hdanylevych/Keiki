@@ -1,9 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityWeld.Binding;
 
-[Binding]
 public class GUIOverlayMV : CanvasMV
 {
     private readonly string PickBarPrefabLocation = "GUI/PickBarMV";

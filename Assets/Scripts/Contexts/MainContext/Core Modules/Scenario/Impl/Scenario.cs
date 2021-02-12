@@ -1,14 +1,12 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 public abstract class Scenario
 {
     protected bool _isActive;
-    
-    public abstract string MiniGameLocation { get; }
+
     public bool IsActive => _isActive;
+
+    public abstract string MiniGameLocation { get; }
 
     public event Action OnComplete;
 

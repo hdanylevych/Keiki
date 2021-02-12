@@ -1,7 +1,6 @@
+using strange.extensions.injector.api;
 using System.Collections.Generic;
 using System.Linq;
-
-using strange.extensions.injector.api;
 
 public class ScenarioController : IScenarioController
 {

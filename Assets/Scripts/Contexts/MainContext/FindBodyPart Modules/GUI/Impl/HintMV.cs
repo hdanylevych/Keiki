@@ -6,6 +6,8 @@ public class HintMV : View
 {
     private RectTransform _rectTransform;
 
+    [Inject] public CorrectAnswerSignal CorrectAnswerSignal { get; set; }
+
     private RectTransform RectTransform
     {
         get
@@ -23,8 +25,6 @@ public class HintMV : View
             return _rectTransform;
         }
     }
-
-    [Inject] public CorrectAnswerSignal CorrectAnswerSignal { get; set; }
 
     [PostConstruct]
     private void Initialize()

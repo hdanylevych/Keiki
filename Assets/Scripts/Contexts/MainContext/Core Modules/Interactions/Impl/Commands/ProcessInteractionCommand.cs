@@ -1,7 +1,5 @@
 using strange.extensions.command.impl;
 
-using UnityEngine;
-
 public class ProcessInteractionCommand : Command
 {
     [Inject] public IInteractable Interactable { get; set; }
